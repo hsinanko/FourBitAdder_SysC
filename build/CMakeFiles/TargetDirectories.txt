@@ -1,3 +1,3 @@
-/Users/justinko/Documents/systemC/build/CMakeFiles/fourbitadder.dir
-/Users/justinko/Documents/systemC/build/CMakeFiles/edit_cache.dir
-/Users/justinko/Documents/systemC/build/CMakeFiles/rebuild_cache.dir
+/Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles/fourbitadder.dir
+/Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles/edit_cache.dir
+/Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles/rebuild_cache.dir

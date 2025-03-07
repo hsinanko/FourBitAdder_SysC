@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/justinko/Documents/systemC
+CMAKE_SOURCE_DIR = /Users/justinko/Documents/systemC/FourBitAdder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/justinko/Documents/systemC/build
+CMAKE_BINARY_DIR = /Users/justinko/Documents/systemC/FourBitAdder/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fourbitadder.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/fourbitadder.dir/codegen:
 .PHONY : CMakeFiles/fourbitadder.dir/codegen
 
 CMakeFiles/fourbitadder.dir/testbench.cc.o: CMakeFiles/fourbitadder.dir/flags.make
-CMakeFiles/fourbitadder.dir/testbench.cc.o: /Users/justinko/Documents/systemC/testbench.cc
+CMakeFiles/fourbitadder.dir/testbench.cc.o: /Users/justinko/Documents/systemC/FourBitAdder/testbench.cc
 CMakeFiles/fourbitadder.dir/testbench.cc.o: CMakeFiles/fourbitadder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/justinko/Documents/systemC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fourbitadder.dir/testbench.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fourbitadder.dir/testbench.cc.o -MF CMakeFiles/fourbitadder.dir/testbench.cc.o.d -o CMakeFiles/fourbitadder.dir/testbench.cc.o -c /Users/justinko/Documents/systemC/testbench.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fourbitadder.dir/testbench.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fourbitadder.dir/testbench.cc.o -MF CMakeFiles/fourbitadder.dir/testbench.cc.o.d -o CMakeFiles/fourbitadder.dir/testbench.cc.o -c /Users/justinko/Documents/systemC/FourBitAdder/testbench.cc
 
 CMakeFiles/fourbitadder.dir/testbench.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fourbitadder.dir/testbench.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/justinko/Documents/systemC/testbench.cc > CMakeFiles/fourbitadder.dir/testbench.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/justinko/Documents/systemC/FourBitAdder/testbench.cc > CMakeFiles/fourbitadder.dir/testbench.cc.i
 
 CMakeFiles/fourbitadder.dir/testbench.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fourbitadder.dir/testbench.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/justinko/Documents/systemC/testbench.cc -o CMakeFiles/fourbitadder.dir/testbench.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/justinko/Documents/systemC/FourBitAdder/testbench.cc -o CMakeFiles/fourbitadder.dir/testbench.cc.s
 
 CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o: CMakeFiles/fourbitadder.dir/flags.make
-CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o: /Users/justinko/Documents/systemC/OneBitAdder.cc
+CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o: /Users/justinko/Documents/systemC/FourBitAdder/OneBitAdder.cc
 CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o: CMakeFiles/fourbitadder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/justinko/Documents/systemC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o -MF CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o.d -o CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o -c /Users/justinko/Documents/systemC/OneBitAdder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o -MF CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o.d -o CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o -c /Users/justinko/Documents/systemC/FourBitAdder/OneBitAdder.cc
 
 CMakeFiles/fourbitadder.dir/OneBitAdder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fourbitadder.dir/OneBitAdder.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/justinko/Documents/systemC/OneBitAdder.cc > CMakeFiles/fourbitadder.dir/OneBitAdder.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/justinko/Documents/systemC/FourBitAdder/OneBitAdder.cc > CMakeFiles/fourbitadder.dir/OneBitAdder.cc.i
 
 CMakeFiles/fourbitadder.dir/OneBitAdder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fourbitadder.dir/OneBitAdder.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/justinko/Documents/systemC/OneBitAdder.cc -o CMakeFiles/fourbitadder.dir/OneBitAdder.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/justinko/Documents/systemC/FourBitAdder/OneBitAdder.cc -o CMakeFiles/fourbitadder.dir/OneBitAdder.cc.s
 
 # Object files for target fourbitadder
 fourbitadder_OBJECTS = \
@@ -113,7 +113,7 @@ bin/fourbitadder: CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o
 bin/fourbitadder: CMakeFiles/fourbitadder.dir/build.make
 bin/fourbitadder: /Users/justinko/systemc/install/lib/libsystemc.3.0.dylib
 bin/fourbitadder: CMakeFiles/fourbitadder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/justinko/Documents/systemC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/fourbitadder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/fourbitadder"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fourbitadder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +125,6 @@ CMakeFiles/fourbitadder.dir/clean:
 .PHONY : CMakeFiles/fourbitadder.dir/clean
 
 CMakeFiles/fourbitadder.dir/depend:
-	cd /Users/justinko/Documents/systemC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/justinko/Documents/systemC /Users/justinko/Documents/systemC /Users/justinko/Documents/systemC/build /Users/justinko/Documents/systemC/build /Users/justinko/Documents/systemC/build/CMakeFiles/fourbitadder.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/justinko/Documents/systemC/FourBitAdder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/justinko/Documents/systemC/FourBitAdder /Users/justinko/Documents/systemC/FourBitAdder /Users/justinko/Documents/systemC/FourBitAdder/build /Users/justinko/Documents/systemC/FourBitAdder/build /Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles/fourbitadder.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/fourbitadder.dir/depend
 

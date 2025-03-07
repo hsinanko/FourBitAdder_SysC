@@ -1,14 +1,14 @@
 [
 {
-  "directory": "/Users/justinko/Documents/systemC/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/justinko/systemc/install/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/fourbitadder.dir/testbench.cc.o -c /Users/justinko/Documents/systemC/testbench.cc",
-  "file": "/Users/justinko/Documents/systemC/testbench.cc",
+  "directory": "/Users/justinko/Documents/systemC/FourBitAdder/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/justinko/systemc/install/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/fourbitadder.dir/testbench.cc.o -c /Users/justinko/Documents/systemC/FourBitAdder/testbench.cc",
+  "file": "/Users/justinko/Documents/systemC/FourBitAdder/testbench.cc",
   "output": "CMakeFiles/fourbitadder.dir/testbench.cc.o"
 },
 {
-  "directory": "/Users/justinko/Documents/systemC/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/justinko/systemc/install/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o -c /Users/justinko/Documents/systemC/OneBitAdder.cc",
-  "file": "/Users/justinko/Documents/systemC/OneBitAdder.cc",
+  "directory": "/Users/justinko/Documents/systemC/FourBitAdder/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/justinko/systemc/install/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o -c /Users/justinko/Documents/systemC/FourBitAdder/OneBitAdder.cc",
+  "file": "/Users/justinko/Documents/systemC/FourBitAdder/OneBitAdder.cc",
   "output": "CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o"
 }
 ]

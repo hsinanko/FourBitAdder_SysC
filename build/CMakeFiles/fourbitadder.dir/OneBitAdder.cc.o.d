@@ -1,6 +1,6 @@
 CMakeFiles/fourbitadder.dir/OneBitAdder.cc.o: \
-  /Users/justinko/Documents/systemC/OneBitAdder.cc \
-  /Users/justinko/Documents/systemC/OneBitAdder.h \
+  /Users/justinko/Documents/systemC/FourBitAdder/OneBitAdder.cc \
+  /Users/justinko/Documents/systemC/FourBitAdder/OneBitAdder.h \
   /Users/justinko/systemc/install/include/systemc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__assert \

@@ -1,5 +1,5 @@
 CMakeFiles/fourbitadder.dir/testbench.cc.o: \
-  /Users/justinko/Documents/systemC/testbench.cc \
+  /Users/justinko/Documents/systemC/FourBitAdder/testbench.cc \
   /Users/justinko/systemc/install/include/sysc/datatypes/bit/sc_logic.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__assert \
@@ -1091,5 +1091,5 @@ CMakeFiles/fourbitadder.dir/testbench.cc.o: \
   /Users/justinko/systemc/install/include/sysc/utils/sc_pvector.h \
   /Users/justinko/systemc/install/include/sysc/utils/sc_string_view.h \
   /Users/justinko/systemc/install/include/sysc/utils/sc_vector.h \
-  /Users/justinko/Documents/systemC/FourBitAdder.h \
-  /Users/justinko/Documents/systemC/OneBitAdder.h
+  /Users/justinko/Documents/systemC/FourBitAdder/FourBitAdder.h \
+  /Users/justinko/Documents/systemC/FourBitAdder/OneBitAdder.h

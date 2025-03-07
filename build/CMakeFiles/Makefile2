@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/justinko/Documents/systemC
+CMAKE_SOURCE_DIR = /Users/justinko/Documents/systemC/FourBitAdder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/justinko/Documents/systemC/build
+CMAKE_BINARY_DIR = /Users/justinko/Documents/systemC/FourBitAdder/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/fourbitadder.dir/clean
 CMakeFiles/fourbitadder.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fourbitadder.dir/build.make CMakeFiles/fourbitadder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fourbitadder.dir/build.make CMakeFiles/fourbitadder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/justinko/Documents/systemC/build/CMakeFiles --progress-num=1,2,3 "Built target fourbitadder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles --progress-num=1,2,3 "Built target fourbitadder"
 .PHONY : CMakeFiles/fourbitadder.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fourbitadder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/justinko/Documents/systemC/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fourbitadder.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/justinko/Documents/systemC/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles 0
 .PHONY : CMakeFiles/fourbitadder.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ fourbitadder: CMakeFiles/fourbitadder.dir/rule
 # codegen rule for target.
 CMakeFiles/fourbitadder.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fourbitadder.dir/build.make CMakeFiles/fourbitadder.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/justinko/Documents/systemC/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target fourbitadder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/justinko/Documents/systemC/FourBitAdder/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target fourbitadder"
 .PHONY : CMakeFiles/fourbitadder.dir/codegen
 
 # clean rule for target.
